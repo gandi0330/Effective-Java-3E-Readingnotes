@@ -11,7 +11,7 @@
 <br>
 <br>
 
-### 1번 방식 : public static final 필드 방식의 싱글턴
+>### 1번 방식 : public static final 필드 방식의 싱글턴
 
 ```java
 public class Wise{
@@ -28,7 +28,7 @@ public class Wise{
 <br>
 <br>
 
-### 2번 방식 : 정적 팩터리 방식의 싱글턴
+>### 2번 방식 : 정적 팩터리 방식의 싱글턴
 
 ```java
 public class Wise{
@@ -52,7 +52,7 @@ public class Wise{
 <br>
 <br>
 
-### 1, 2번 방식의 단점
+>### 1, 2번 방식의 단점
 
 둘 중 하나의 방식으로 만든 싱글턴 클래스를 직렬화하려면 단순히 Serializable을 구현한다고 선언하는 것만으로는 부족합니다. 
 
@@ -71,7 +71,7 @@ private Object readResolve(){
 <br>
 <br>
 
-### 3번 방식 : 원소가 하나인 열거 타입을 선언하는 방식
+>### 3번 방식 : 원소가 하나인 열거 타입을 선언하는 방식
 
 ```java
 public enum Wise{
